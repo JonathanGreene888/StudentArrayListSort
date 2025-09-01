@@ -3,7 +3,7 @@ import java.util.*;
 
 public class RollNumberComparator implements Comparator<Object> {
 	 
-
+	//** custom roll number comparator using = */
 	public int compare(Object o1,Object o2)
 	{  
 	Student s1=(Student)o1;  

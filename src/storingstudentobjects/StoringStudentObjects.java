@@ -3,7 +3,7 @@ import java.util.*;
 
 import jonathansort.JonathanSort;  
 
-
+//** Handles storing student objects in an array list */
 public class StoringStudentObjects {
 
 	public static void main(String[] args) {

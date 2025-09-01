@@ -7,6 +7,7 @@ import storingstudentobjects.Student;
 
 public class JonathanSort {
 
+	//** A custom sort created that uses a name comparator instead of built in Java sort.*/
 	public void sort(ArrayList<Student> studentArray, NameComparator nameComparator) {
 		
 				// loop over the index
@@ -23,13 +24,11 @@ public class JonathanSort {
 						}
 					}
 					
-					
 					Student tempValue = studentArray.get(minimumIndex);
-					
 					
 					studentArray.set(minimumIndex, studentArray.get(i));
 					
-					// swap the j and i
+					//** swap the j and i */ 
 					studentArray.set(i, tempValue);
 				}
 	}
